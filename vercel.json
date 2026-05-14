@@ -1,5 +1,9 @@
 {
   "rewrites": [
+    {
+      "source": "/music/dream-in-spotlight",
+      "destination": "https://dream-in-spotlight.vercel.app"
+    },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
